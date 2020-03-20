@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    string str;
+    cin>>str;
+    for(int i=0;i<str.length();i++)
+    {
+        if(str[i]>=65 && str[i]<=90)
+        {
+            cout<<str[i];
+        }
+    }
+    
+    return 0;
+}
